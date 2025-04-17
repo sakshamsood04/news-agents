@@ -13,6 +13,16 @@ The **Multi-Agent News Analysis System** is a Python-based tool designed to prov
 - **Automated Workflow**: Utilizes browser automation to search Google and extract relevant articles directly from source websites.
 - **Scalable Design**: Processes multiple sources concurrently using asynchronous tasks.
 
+## Quick Start Instructions
+
+- Create a `.env` file in your project directory containing your OpenAI API key:
+  `OPENAI_API_KEY=your_openai_api_key_here`
+
+- In your terminal, run:
+  `python news.py`
+
+- When prompted, enter the name of the news story you want to analyze.
+
 ---
 
 ## How It Works
